@@ -58,7 +58,7 @@ app.post("/sessions",function(req,res){
         //console.log(docs);
         //res.send("Revisa tu usuario en consola");
         req.session.user_id = user._id;
-        req.send("Hola weon");
+        res.send("Hola weon");
     });
 
 });
